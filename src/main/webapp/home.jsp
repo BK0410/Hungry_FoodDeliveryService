@@ -17,7 +17,7 @@
 </head>
 <body>
 	<div class="container text-center">
-			<h1>Foodie.com</h1><br>
+			<h1>Hungry.com</h1><br>
 			<h2>Welcome ${username}</h2>
 	</div>
 </body>

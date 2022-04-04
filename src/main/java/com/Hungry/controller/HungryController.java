@@ -7,7 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin()
 public class HungryController {
     @RequestMapping(value = "/welcome", method = RequestMethod.GET)
-    public String homePage() {
+    public String welcomePage() {
         return "Welcome to Hungry !";
+    }
+    @RequestMapping("/home")
+    public String homePage(){
+        return "home.jsp";
     }
 }
